@@ -35,7 +35,7 @@ namespace Business.Concrete
                 _rentalDal.Add(rental);
                 return new SuccessResult();
             }
-            return new ErrorResult(Messages.CarAlreadyRented);
+            return new ErrorResult(Messages.CarsRented);
         }
 
         public IResult Delete(Rental rental)

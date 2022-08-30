@@ -14,9 +14,9 @@ namespace Business.Constants
         public static string MaintenanceTime = "Bakım Zamanı!";
         public static string CarsListed = "Araçler Listelendi!";
         public static string CustomerAdded = "Müşteri eklendi!";
-        public static string CarAlreadyRented = "Araç Kiralama İşlemi Başarısız. Seçili Araç Kirada!";
+        public static string CarsRented = "Araç Kiralama İşlemi Başarısız. Seçili Araç Kirada!";
         public static string RentalSuccessful = "Araç Kiralama İşlemi Başarılı!";
-        public static string CouldNotCarAdded = "Araç Eklenemedi!";
+        public static string CarNotAdded = "Araç Eklenemedi!";
 
     }
 }
