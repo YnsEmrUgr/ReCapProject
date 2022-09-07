@@ -12,10 +12,10 @@ namespace Business.ValidationRules.FluentValidation
     {
         public CarValidator()
         {
-            RuleFor(c => c.Description).MinimumLength(6);
-            RuleFor(c => c.Description).NotEmpty();
-            RuleFor(c => c.DailyPrice).NotEmpty();
-            RuleFor(c => c.DailyPrice).GreaterThan(0);
+            //RuleFor(c => c.Description).MinimumLength(6);
+            //RuleFor(c => c.Description).NotEmpty();
+            //RuleFor(c => c.DailyPrice).NotEmpty();
+            //RuleFor(c => c.DailyPrice).GreaterThan(0);
         }
     }
 }

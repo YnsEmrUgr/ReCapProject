@@ -60,8 +60,8 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
 
-        [HttpPost("add")]
-        public IActionResult Add(Car car)
+        [HttpPost("addimage")]
+        public IActionResult AddImage(Car car)
         {
             var result = _carService.Add(car);
             if (result.Success)
