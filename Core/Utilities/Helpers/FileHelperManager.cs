@@ -22,7 +22,6 @@ namespace Core.Utilities.Helpers
                 return result;
             }
             File.Delete(filePath);
-            return new SuccessResult();
         }
 
         public IResult Update(IFormFile formFile, string filePath, string root)
